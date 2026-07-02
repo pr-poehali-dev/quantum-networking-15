@@ -19,18 +19,19 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/a8d7b746-4646-45bf-a1eb-8e393d0dc9dc/files/7c5f5e04-cf4b-485c-b9a4-b33876c3f2c4.jpg"
+          alt="Лазерная эпиляция"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ГЛАДКАЯ КОЖА
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Лазерная эпиляция навсегда — безболезненно, безопасно и с гарантией результата
         </p>
       </div>
     </div>
