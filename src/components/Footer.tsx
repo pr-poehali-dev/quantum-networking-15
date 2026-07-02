@@ -50,6 +50,12 @@ export default function Footer() {
                   Instagram
                 </a>
               </div>
+              <div className="flex flex-col gap-1 sm:gap-2">
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Адрес</h3>
+                <p className="text-white text-sm sm:text-base">г. Нальчик</p>
+                <p className="text-white text-sm sm:text-base">ул. Атажукина 10Б</p>
+                <p className="text-neutral-400 text-sm sm:text-base mt-2">9:00 — 19:00</p>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
