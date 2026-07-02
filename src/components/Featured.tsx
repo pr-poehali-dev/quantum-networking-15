@@ -14,9 +14,14 @@ export default function Featured() {
           Современный диодный лазер удаляет волосы навсегда без боли и раздражения. Гладкая кожа уже
           после первых сеансов — безопасно для любого типа кожи и фототипа.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a
+          href="https://wa.me/79386932928?text=Хочу записаться на лазерную эпиляцию"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black uppercase tracking-wide w-fit"
+        >
           Записаться
-        </button>
+        </a>
       </div>
     </div>
   );

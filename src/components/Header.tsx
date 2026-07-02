@@ -15,7 +15,9 @@ export default function Header({ className }: HeaderProps) {
             Услуги
           </a>
           <a
-            href="#contact"
+            href="https://wa.me/79386932928?text=Хочу записаться на лазерную эпиляцию"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
             Записаться

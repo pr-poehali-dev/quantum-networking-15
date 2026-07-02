@@ -30,9 +30,14 @@ export default function Prices() {
           ))}
         </div>
         <div className="mt-12">
-          <button className="bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer uppercase tracking-wide">
+          <a
+            href="https://wa.me/79386932928?text=Хочу записаться на лазерную эпиляцию"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-black text-white border border-black px-6 py-3 text-sm transition-all duration-300 hover:bg-white hover:text-black uppercase tracking-wide"
+          >
             Записаться на сеанс
-          </button>
+          </a>
         </div>
       </div>
     </div>
