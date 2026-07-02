@@ -55,6 +55,7 @@ export default function Footer() {
                 <p className="text-white text-sm sm:text-base">г. Нальчик</p>
                 <p className="text-white text-sm sm:text-base">ул. Атажукина 10Б</p>
                 <p className="text-neutral-400 text-sm sm:text-base mt-2">9:00 — 19:00</p>
+                <a href="tel:+79280753393" className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base mt-1">+7 928 075-33-93</a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
